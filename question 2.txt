@@ -1,0 +1,23 @@
+Supervised Learning, Self-Supervised Learning, and Semi-Supervised Learning:
+Supervised Learning:
+
+Definition: In supervised learning, the algorithm is trained on a labeled dataset, meaning that each input data point is associated with an output label. The model learns to map inputs to outputs by minimizing the discrepancy between its predictions and the ground truth labels.
+Key Characteristics: The model is trained to predict labels for new, unseen data based on patterns learned from the labeled dataset. It requires a significant amount of labeled data for training.
+Self-Supervised Learning:
+
+Definition: Self-supervised learning is a type of learning where the model learns to make predictions about some aspects of the input data by generating supervisory signals from the data itself, without relying on human-labeled data.
+Key Characteristics: It typically involves setting up a pretext task, where the model learns to solve a related but easier task using the available input data. For example, predicting missing parts of an image, the next word in a sentence, or image transformations.
+Semi-Supervised Learning:
+
+Definition: Semi-supervised learning utilizes a combination of labeled and unlabeled data for training. The model learns from both labeled and unlabeled data to improve its performance. This is particularly useful when labeled data is limited or expensive to obtain.
+Key Characteristics: It leverages the additional information from the unlabeled data to learn more robust and generalizable patterns, enhancing the model's performance.
+Transductive Learning and Inductive Learning:
+Transductive Learning:
+
+Definition: Transductive learning is concerned with making predictions on specific, known test data points within the same dataset that the model was trained on. The model aims to make predictions for individual test instances within the same dataset, not for unseen, future data.
+Key Characteristics: It operates directly on the test instances without generalizing to new, unseen instances. It tries to provide the best prediction for a specific set of test data.
+Inductive Learning:
+
+Definition: Inductive learning, on the other hand, focuses on generalizing from the training data to make predictions about unseen data points that the model has not encountered during training.
+Key Characteristics: The model learns a generalized mapping between inputs and outputs from the training data and applies this learned knowledge to make predictions on new, previously unseen instances.
+In summary, supervised learning relies on labeled data, while self-supervised learning generates its own labels from the data. Semi-supervised learning makes use of both labeled and unlabeled data to improve performance. Transductive learning predicts for specific test instances within the training dataset, whereas inductive learning generalizes knowledge from the training set to make predictions on unseen, future data instances.
